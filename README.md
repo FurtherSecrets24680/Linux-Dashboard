@@ -77,8 +77,41 @@ create_app_button{app_frame, "App Label", "Command/App to execute", "/path/to/ap
 ```
 create_app_button{app_frame, "VS Code", "code", "code.png", x, y, script_dir}
 ```
-### Demostration
+### Demonstration
 [![video](https://github.com/FurtherSecrets24680/Linux-Dashboard/assets/78081767/735ef4fd-c29e-4905-a36b-69cf208f5b1f)](https://github.com/FurtherSecrets24680/Linux-Dashboard/assets/78081767/e7e430aa-2638-45e7-b754-2ffe12e7953b)
+
+# FAQ
+**Q**: Where can I get icons that will suit with this dashboard?
+
+**A**: I recommend downloading white icons for any app. You can get those from these websites - https://simpleicons.org and https://icons8.com/icons
+
+**Q**: There is no logo of my current distro on the top left corner!
+
+**A**: You can add your own distro logo by modifying the asciilogos.py file. Or, wait for it to be added.
+
+**Q**: It shows my IP and MAC address! Can I disable it?
+
+**A**: The IP address that it shows (192.168.0.1 or 192.168.1.1) is your private IP address. If you put it in your address bar, you can access your router settings. You can only do it if you are connected to the internet of that router.This IP is the default for everyone, for every router. So there won't be any problems if you show it to anyone on the internet. And the MAC address is your machine's hardware address. If you accidentally leak it, a person will only be able to know your device manufacturer information. But if you share your mac address with anyone who is on the same network as you, they can do deAuth attacks or intercept your traffic by posing as the networks router. So, there won't be any major security risks if you show your mac address on the internet.
+
+But if you are still skeptical about it, you can freely remove the IP or MAC address section from the code. Just follow these steps:
+
+### 1. Open linux-dashboard.py in any text editor or IDE.
+### 2. Go to the create_sidebar function of this code.
+![image](https://github.com/FurtherSecrets24680/Linux-Dashboard/assets/78081767/5447a55e-7b10-450a-98cc-944aae24e68c)
+### 3. Remove the IP/MAC address section like this:
+![image](https://github.com/FurtherSecrets24680/Linux-Dashboard/assets/78081767/6181048e-5765-4553-be3f-30e7342ab057)
+
+(While removing the MAC address, make sure to remove the comma after the IP address, otherwise, it'll throw an error.)
+### 4. Now, go the update_system_info function.
+![image](https://github.com/FurtherSecrets24680/Linux-Dashboard/assets/78081767/1f46ea13-3cac-4e98-b176-6e2c5740b2ac)
+
+Then, remove this: 
+```
+self.label_mac_address.configure(text=f"MAC Address: {mac_address}")
+```
+
+
+
 
 # Credits
 - ASCII distro logos from Neofetch.
