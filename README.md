@@ -7,8 +7,16 @@ Dark Mode
 ![linuxdb2](https://github.com/FurtherSecrets24680/Linux-Dashboard/assets/78081767/b106740d-0552-45ff-91f8-ae92d97517d5)
 Light Mode
 
+# Features
+- A customizable quick launch area from where your favourite apps can be launched. (But at first, you have to customize quicklaunch.py).
+- Greeting text on the top, with the current time.
+- A customizable sidebar with some information about your PC. Such as OS, Storage and Internet info.
+- A small area above the sidebar showing the ASCII logo of the current distro you are using.
+- Light/Dark mode toggle.
+- A "power menu" on the bottom right corner to shutdown, restart or log out.
+
 # Requirements and Dependencies
-1. Python 3.7+
+- Python 3.7+
    ### Modules
    - CustomTkinter
      
