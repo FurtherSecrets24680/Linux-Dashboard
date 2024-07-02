@@ -69,7 +69,11 @@ create_app_button{app_frame, "App Label", "Command/App to execute", "/path/to/ap
 ```
 create_app_button{app_frame, "VS Code", "code", "code.png", x, y, script_dir}
 ```
+### Demostration
+![video](https://github.com/FurtherSecrets24680/Linux-Dashboard/assets/78081767/e8c78eb0-08e4-4380-9921-c824fcb04a44)
 
+# Credits
+- ASCII logos from Neofetch.
 
 
 
