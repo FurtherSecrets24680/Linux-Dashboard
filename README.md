@@ -1,5 +1,5 @@
 # Overview
-A Simple Linux Dashboard made with Python!
+A Simple Linux Dashboard made with Python using the CustomTkinter library.
 
 ![linuxdb1](https://github.com/FurtherSecrets24680/Linux-Dashboard/assets/78081767/dfdb38df-2efd-4e84-9824-a23e4cfa96c6)
 Dark Mode
@@ -70,10 +70,10 @@ create_app_button{app_frame, "App Label", "Command/App to execute", "/path/to/ap
 create_app_button{app_frame, "VS Code", "code", "code.png", x, y, script_dir}
 ```
 ### Demostration
-![video](https://github.com/FurtherSecrets24680/Linux-Dashboard/assets/78081767/e8c78eb0-08e4-4380-9921-c824fcb04a44)
+[![video](https://github.com/FurtherSecrets24680/Linux-Dashboard/assets/78081767/735ef4fd-c29e-4905-a36b-69cf208f5b1f)](https://github.com/FurtherSecrets24680/Linux-Dashboard/assets/78081767/e7e430aa-2638-45e7-b754-2ffe12e7953b)
 
 # Credits
-- ASCII logos from Neofetch.
+- ASCII distro logos from Neofetch.
 
 
 
