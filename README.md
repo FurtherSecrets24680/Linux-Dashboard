@@ -80,7 +80,7 @@ create_app_button{app_frame, "VS Code", "code", "code.png", x, y, script_dir}
 ### Demonstration
 [![video](https://github.com/FurtherSecrets24680/Linux-Dashboard/assets/78081767/735ef4fd-c29e-4905-a36b-69cf208f5b1f)](https://github.com/FurtherSecrets24680/Linux-Dashboard/assets/78081767/e7e430aa-2638-45e7-b754-2ffe12e7953b)
 
-# FAQ
+# Not So Frequently Asked Questions
 **Q**: Where can I get icons that will suit with this dashboard?
 
 **A**: I recommend downloading white icons for any app. You can get those from these websites - https://simpleicons.org and https://icons8.com/icons
@@ -109,9 +109,6 @@ Then, remove this:
 ```
 self.label_mac_address.configure(text=f"MAC Address: {mac_address}")
 ```
-
-
-
 
 # Credits
 - ASCII distro logos from Neofetch.
